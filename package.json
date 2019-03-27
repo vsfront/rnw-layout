@@ -1,7 +1,7 @@
 {
-  "name": "layout",
+  "name": "rnw-layout",
   "version": "1.0.0",
-  "description": "",
+  "description": "react native (web) layout primitives",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
@@ -9,7 +9,14 @@
     "build-storybook": "build-storybook"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Valeriy Shabarin",
+    "email": "shabarinvalera@gmail.com",
+    "url": "https://github.com/vsfront"
+  },
+  "engines": {
+    "node": ">=8"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.0",
