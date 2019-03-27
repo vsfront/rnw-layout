@@ -1,5 +1,5 @@
 {
-  "name": "@kode/rnw-layout",
+  "name": "rnw-layout",
   "version": "1.0.2",
   "description": "react native (web) layout primitives",
   "main": "dist/index.js",
