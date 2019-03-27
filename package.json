@@ -1,5 +1,5 @@
 {
-  "name": "rnw-layout",
+  "name": "@kode/rnw-layout",
   "version": "1.0.1",
   "description": "react native (web) layout primitives",
   "main": "dist/index.js",
@@ -19,6 +19,10 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "react": "^16.8.5",
+    "react-native": "^0.59.2",
+    "react-native-web": "^0.11.2",
+    "styled-components": "^4.2.0",
     "@babel/core": "^7.4.0",
     "@storybook/addon-actions": "^5.0.5",
     "@storybook/addon-info": "^5.0.5",
@@ -39,10 +43,5 @@
     "rimraf": "^2.6.3",
     "typescript": "^3.3.4000"
   },
-  "peerDependencies": {
-    "react": "^16.8.5",
-    "react-native": "^0.59.2",
-    "react-native-web": "^0.11.2",
-    "styled-components": "^4.2.0"
-  }
+  "dependencies": {}
 }
