@@ -1,10 +1,10 @@
 import styled from "styled-components/native";
 import { View } from "react-native";
 
-interface Props {
+type Props = {
   /** Optional height of Center component */
   height?: number;
-}
+};
 
 /** Center layout component description */
 export const Center: React.SFC<Props> = styled(View)<Props>`
